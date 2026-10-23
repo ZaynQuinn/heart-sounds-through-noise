@@ -1,0 +1,45 @@
+# Dependencies for preprocessing, denoising, training, evaluation and plotting.
+# Existing version pins consolidated from the verified macOS ARM64 / Python 3.9 environment.
+# This records the reproduction environment, not the original training environment.
+
+audioread==3.1.0
+certifi==2026.10.19
+cffi==2.0.0
+charset-normalizer==3.5.2
+decorator==5.3.1
+filelock==3.19.1
+fsspec==2025.10.0
+idna==3.20
+Jinja2==3.1.6
+joblib==1.5.3
+lazy-loader==0.6
+librosa==0.11.0
+llvmlite==0.43.0
+MarkupSafe==3.0.4
+matplotlib==3.9.4
+mpmath==1.3.0
+msgpack==1.1.2
+networkx==3.2.1
+numba==0.60.0
+numpy==1.26.4
+packaging==26.3
+pandas==2.3.3
+platformdirs==4.4.0
+pooch==1.9.0
+pycparser==2.23
+python-dateutil==2.9.0.post0
+pytz==2026.5
+PyWavelets==1.6.0
+requests==2.32.5
+scikit-learn==1.6.1
+scipy==1.13.1
+six==1.17.0
+soundfile==0.13.1
+soxr==1.1.0
+sympy==1.14.0
+threadpoolctl==3.7.0
+torch==2.8.0
+tqdm==4.68.1
+typing_extensions==4.16.0
+tzdata==2026.5
+urllib3==2.6.3

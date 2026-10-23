@@ -1,0 +1,29 @@
+{
+  "run": "heart_micro_20251230_184645",
+  "checkpoint_sha256": "d0d1420d93f83a055b97e49d47f11d996a1014a2a5da6c46e608d26493cdb0ec",
+  "test_segments": 6737,
+  "acc": 0.8383553510464599,
+  "macro_f1": 0.8163078595678932,
+  "confusion_matrix": [
+    [
+      3991,
+      1053
+    ],
+    [
+      36,
+      1657
+    ]
+  ],
+  "class_order": [
+    -1,
+    1
+  ],
+  "matrix_axes": [
+    "true",
+    "predicted"
+  ],
+  "params": 622,
+  "torch": "2.8.0",
+  "numpy": "1.26.4",
+  "scope": "CPU inference on existing clean features; no training or feature regeneration"
+}

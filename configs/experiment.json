@@ -1,0 +1,71 @@
+{
+  "baseline": "heart_micro_20251230_184645",
+  "sample_rate": 2000,
+  "segment_seconds": 3,
+  "hop_seconds": 1.5,
+  "features": {
+    "n_mels": 64,
+    "n_fft": 256,
+    "hop_length": 64,
+    "fmin": 20,
+    "fmax": 400,
+    "log_epsilon": 1e-06,
+    "win_length": 256,
+    "window": "hann",
+    "center": true,
+    "pad_mode": "constant",
+    "power": 2.0,
+    "htk": false,
+    "norm": "slaney",
+    "dtype": "float32"
+  },
+  "snr_db": [
+    -10,
+    -5,
+    0,
+    5,
+    10,
+    15,
+    20
+  ],
+  "anc": {
+    "protect_hz": 250,
+    "subbands": [
+      [
+        250,
+        400,
+        0.5
+      ],
+      [
+        400,
+        900,
+        1.0
+      ]
+    ],
+    "filter_len": 512,
+    "base_mu": 0.01,
+    "leak": 1e-05,
+    "delta": 1e-06,
+    "delay_align": true,
+    "max_lag_samples": 120,
+    "high_mode": "pass"
+  },
+  "wavelet": {
+    "wavelet": "sym6",
+    "level": 4,
+    "k": 1.2,
+    "thr_rule": "universal",
+    "thr_mode": "soft",
+    "ext_mode": "symmetric",
+    "clip_val": 0.98
+  },
+  "variants": {
+    "d1d2": {
+      "top_bands": 2
+    },
+    "d1": {
+      "top_bands": 1
+    }
+  },
+  "status": "Reproduction instructions: README.md and README.zh-CN.md; reference metrics: results/measured."
+}

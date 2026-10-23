@@ -1,0 +1,10 @@
+{
+  "csv": "data/features/metadata.csv",
+  "norm_dir": "data/features",
+  "epochs": 50,
+  "batch_size": 32,
+  "lr": 0.001,
+  "seed": 42,
+  "arch": "micro",
+  "exp_name": "heart_micro_20251230_184645"
+}

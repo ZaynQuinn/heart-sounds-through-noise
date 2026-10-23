@@ -1,0 +1,730 @@
+{
+  "checkpoint_sha256": "d0d1420d93f83a055b97e49d47f11d996a1014a2a5da6c46e608d26493cdb0ec",
+  "recordings": 486,
+  "recipe_count": 3402,
+  "scope": "All preserved test segments for selected recipes; generated PCM16 waveforms to log-Mel to classification",
+  "class_order": [
+    -1,
+    1
+  ],
+  "confusion_matrix_axes": [
+    "true",
+    "predicted"
+  ],
+  "metrics": [
+    {
+      "branch": "anc",
+      "snr": -10,
+      "segments": 6737,
+      "accuracy": 0.607837316312899,
+      "macro_f1": 0.5899522939803978,
+      "confusion_matrix": [
+        [
+          2751,
+          2293
+        ],
+        [
+          349,
+          1344
+        ]
+      ]
+    },
+    {
+      "branch": "anc",
+      "snr": -5,
+      "segments": 6737,
+      "accuracy": 0.660086091732225,
+      "macro_f1": 0.6364735050806944,
+      "confusion_matrix": [
+        [
+          3082,
+          1962
+        ],
+        [
+          328,
+          1365
+        ]
+      ]
+    },
+    {
+      "branch": "anc",
+      "snr": 0,
+      "segments": 6737,
+      "accuracy": 0.7077334124981446,
+      "macro_f1": 0.6791130656806734,
+      "confusion_matrix": [
+        [
+          3390,
+          1654
+        ],
+        [
+          315,
+          1378
+        ]
+      ]
+    },
+    {
+      "branch": "anc",
+      "snr": 5,
+      "segments": 6737,
+      "accuracy": 0.7538963930532878,
+      "macro_f1": 0.722906857555079,
+      "confusion_matrix": [
+        [
+          3666,
+          1378
+        ],
+        [
+          280,
+          1413
+        ]
+      ]
+    },
+    {
+      "branch": "anc",
+      "snr": 10,
+      "segments": 6737,
+      "accuracy": 0.7878877838800653,
+      "macro_f1": 0.7576409388781532,
+      "confusion_matrix": [
+        [
+          3844,
+          1200
+        ],
+        [
+          229,
+          1464
+        ]
+      ]
+    },
+    {
+      "branch": "anc",
+      "snr": 15,
+      "segments": 6737,
+      "accuracy": 0.8083716787887784,
+      "macro_f1": 0.7790010035006019,
+      "confusion_matrix": [
+        [
+          3951,
+          1093
+        ],
+        [
+          198,
+          1495
+        ]
+      ]
+    },
+    {
+      "branch": "anc",
+      "snr": 20,
+      "segments": 6737,
+      "accuracy": 0.8193557963485231,
+      "macro_f1": 0.7919278155076306,
+      "confusion_matrix": [
+        [
+          3983,
+          1061
+        ],
+        [
+          156,
+          1537
+        ]
+      ]
+    },
+    {
+      "branch": "cascade_d1",
+      "snr": -10,
+      "segments": 6737,
+      "accuracy": 0.6056108059967344,
+      "macro_f1": 0.5871122443940359,
+      "confusion_matrix": [
+        [
+          2753,
+          2291
+        ],
+        [
+          366,
+          1327
+        ]
+      ]
+    },
+    {
+      "branch": "cascade_d1",
+      "snr": -5,
+      "segments": 6737,
+      "accuracy": 0.6599376577111474,
+      "macro_f1": 0.6358113121738573,
+      "confusion_matrix": [
+        [
+          3090,
+          1954
+        ],
+        [
+          337,
+          1356
+        ]
+      ]
+    },
+    {
+      "branch": "cascade_d1",
+      "snr": 0,
+      "segments": 6737,
+      "accuracy": 0.7108505269407748,
+      "macro_f1": 0.6809953308075499,
+      "confusion_matrix": [
+        [
+          3425,
+          1619
+        ],
+        [
+          329,
+          1364
+        ]
+      ]
+    },
+    {
+      "branch": "cascade_d1",
+      "snr": 5,
+      "segments": 6737,
+      "accuracy": 0.7550838652219088,
+      "macro_f1": 0.7220996392811543,
+      "confusion_matrix": [
+        [
+          3704,
+          1340
+        ],
+        [
+          310,
+          1383
+        ]
+      ]
+    },
+    {
+      "branch": "cascade_d1",
+      "snr": 10,
+      "segments": 6737,
+      "accuracy": 0.7910048983226956,
+      "macro_f1": 0.7594214648988574,
+      "confusion_matrix": [
+        [
+          3885,
+          1159
+        ],
+        [
+          249,
+          1444
+        ]
+      ]
+    },
+    {
+      "branch": "cascade_d1",
+      "snr": 15,
+      "segments": 6737,
+      "accuracy": 0.8128246994211074,
+      "macro_f1": 0.7826555631480068,
+      "confusion_matrix": [
+        [
+          3993,
+          1051
+        ],
+        [
+          210,
+          1483
+        ]
+      ]
+    },
+    {
+      "branch": "cascade_d1",
+      "snr": 20,
+      "segments": 6737,
+      "accuracy": 0.8242541190440849,
+      "macro_f1": 0.7958484848484848,
+      "confusion_matrix": [
+        [
+          4033,
+          1011
+        ],
+        [
+          173,
+          1520
+        ]
+      ]
+    },
+    {
+      "branch": "cascade_d1d2",
+      "snr": -10,
+      "segments": 6737,
+      "accuracy": 0.6857651773786552,
+      "macro_f1": 0.6145380288669138,
+      "confusion_matrix": [
+        [
+          3758,
+          1286
+        ],
+        [
+          831,
+          862
+        ]
+      ]
+    },
+    {
+      "branch": "cascade_d1d2",
+      "snr": -5,
+      "segments": 6737,
+      "accuracy": 0.7210924743951314,
+      "macro_f1": 0.6524510123827074,
+      "confusion_matrix": [
+        [
+          3926,
+          1118
+        ],
+        [
+          761,
+          932
+        ]
+      ]
+    },
+    {
+      "branch": "cascade_d1d2",
+      "snr": 0,
+      "segments": 6737,
+      "accuracy": 0.7516698827371233,
+      "macro_f1": 0.6899408609904951,
+      "confusion_matrix": [
+        [
+          4035,
+          1009
+        ],
+        [
+          664,
+          1029
+        ]
+      ]
+    },
+    {
+      "branch": "cascade_d1d2",
+      "snr": 5,
+      "segments": 6737,
+      "accuracy": 0.767107020929197,
+      "macro_f1": 0.710832147771054,
+      "confusion_matrix": [
+        [
+          4070,
+          974
+        ],
+        [
+          595,
+          1098
+        ]
+      ]
+    },
+    {
+      "branch": "cascade_d1d2",
+      "snr": 10,
+      "segments": 6737,
+      "accuracy": 0.778388006531097,
+      "macro_f1": 0.7329872124642801,
+      "confusion_matrix": [
+        [
+          4011,
+          1033
+        ],
+        [
+          460,
+          1233
+        ]
+      ]
+    },
+    {
+      "branch": "cascade_d1d2",
+      "snr": 15,
+      "segments": 6737,
+      "accuracy": 0.7844738013952798,
+      "macro_f1": 0.7478015545663685,
+      "confusion_matrix": [
+        [
+          3927,
+          1117
+        ],
+        [
+          335,
+          1358
+        ]
+      ]
+    },
+    {
+      "branch": "cascade_d1d2",
+      "snr": 20,
+      "segments": 6737,
+      "accuracy": 0.7911533323437732,
+      "macro_f1": 0.761429301133826,
+      "confusion_matrix": [
+        [
+          3854,
+          1190
+        ],
+        [
+          217,
+          1476
+        ]
+      ]
+    },
+    {
+      "branch": "noisy",
+      "snr": -10,
+      "segments": 6737,
+      "accuracy": 0.5587056553362031,
+      "macro_f1": 0.5508673615910316,
+      "confusion_matrix": [
+        [
+          2327,
+          2717
+        ],
+        [
+          256,
+          1437
+        ]
+      ]
+    },
+    {
+      "branch": "noisy",
+      "snr": -5,
+      "segments": 6737,
+      "accuracy": 0.6155558854089357,
+      "macro_f1": 0.6031962287787849,
+      "confusion_matrix": [
+        [
+          2668,
+          2376
+        ],
+        [
+          214,
+          1479
+        ]
+      ]
+    },
+    {
+      "branch": "noisy",
+      "snr": 0,
+      "segments": 6737,
+      "accuracy": 0.6584533175003711,
+      "macro_f1": 0.6407881074077562,
+      "confusion_matrix": [
+        [
+          2965,
+          2079
+        ],
+        [
+          222,
+          1471
+        ]
+      ]
+    },
+    {
+      "branch": "noisy",
+      "snr": 5,
+      "segments": 6737,
+      "accuracy": 0.7041709959922814,
+      "macro_f1": 0.6808261535007382,
+      "confusion_matrix": [
+        [
+          3283,
+          1761
+        ],
+        [
+          232,
+          1461
+        ]
+      ]
+    },
+    {
+      "branch": "noisy",
+      "snr": 10,
+      "segments": 6737,
+      "accuracy": 0.736084310523972,
+      "macro_f1": 0.7099855970772682,
+      "confusion_matrix": [
+        [
+          3490,
+          1554
+        ],
+        [
+          224,
+          1469
+        ]
+      ]
+    },
+    {
+      "branch": "noisy",
+      "snr": 15,
+      "segments": 6737,
+      "accuracy": 0.7737865518776904,
+      "macro_f1": 0.746258675288425,
+      "confusion_matrix": [
+        [
+          3716,
+          1328
+        ],
+        [
+          196,
+          1497
+        ]
+      ]
+    },
+    {
+      "branch": "noisy",
+      "snr": 20,
+      "segments": 6737,
+      "accuracy": 0.7984265993765771,
+      "macro_f1": 0.7725849401716064,
+      "confusion_matrix": [
+        [
+          3825,
+          1219
+        ],
+        [
+          139,
+          1554
+        ]
+      ]
+    },
+    {
+      "branch": "wavelet_d1",
+      "snr": -10,
+      "segments": 6737,
+      "accuracy": 0.5578150512097373,
+      "macro_f1": 0.5497802249398117,
+      "confusion_matrix": [
+        [
+          2329,
+          2715
+        ],
+        [
+          264,
+          1429
+        ]
+      ]
+    },
+    {
+      "branch": "wavelet_d1",
+      "snr": -5,
+      "segments": 6737,
+      "accuracy": 0.6127356390084607,
+      "macro_f1": 0.6001769774498082,
+      "confusion_matrix": [
+        [
+          2661,
+          2383
+        ],
+        [
+          226,
+          1467
+        ]
+      ]
+    },
+    {
+      "branch": "wavelet_d1",
+      "snr": 0,
+      "segments": 6737,
+      "accuracy": 0.6577111473949829,
+      "macro_f1": 0.6389685989691511,
+      "confusion_matrix": [
+        [
+          2983,
+          2061
+        ],
+        [
+          245,
+          1448
+        ]
+      ]
+    },
+    {
+      "branch": "wavelet_d1",
+      "snr": 5,
+      "segments": 6737,
+      "accuracy": 0.7032803918658156,
+      "macro_f1": 0.6789107823096481,
+      "confusion_matrix": [
+        [
+          3297,
+          1747
+        ],
+        [
+          252,
+          1441
+        ]
+      ]
+    },
+    {
+      "branch": "wavelet_d1",
+      "snr": 10,
+      "segments": 6737,
+      "accuracy": 0.7386076888822918,
+      "macro_f1": 0.7112994273979513,
+      "confusion_matrix": [
+        [
+          3524,
+          1520
+        ],
+        [
+          241,
+          1452
+        ]
+      ]
+    },
+    {
+      "branch": "wavelet_d1",
+      "snr": 15,
+      "segments": 6737,
+      "accuracy": 0.7755677601306219,
+      "macro_f1": 0.7476446973186334,
+      "confusion_matrix": [
+        [
+          3733,
+          1311
+        ],
+        [
+          201,
+          1492
+        ]
+      ]
+    },
+    {
+      "branch": "wavelet_d1",
+      "snr": 20,
+      "segments": 6737,
+      "accuracy": 0.7997625055662758,
+      "macro_f1": 0.7732932315222287,
+      "confusion_matrix": [
+        [
+          3845,
+          1199
+        ],
+        [
+          150,
+          1543
+        ]
+      ]
+    },
+    {
+      "branch": "wavelet_d1d2",
+      "snr": -10,
+      "segments": 6737,
+      "accuracy": 0.6493988422146356,
+      "macro_f1": 0.589088594813024,
+      "confusion_matrix": [
+        [
+          3478,
+          1566
+        ],
+        [
+          796,
+          897
+        ]
+      ]
+    },
+    {
+      "branch": "wavelet_d1d2",
+      "snr": -5,
+      "segments": 6737,
+      "accuracy": 0.6879916876948197,
+      "macro_f1": 0.6263148089508127,
+      "confusion_matrix": [
+        [
+          3686,
+          1358
+        ],
+        [
+          744,
+          949
+        ]
+      ]
+    },
+    {
+      "branch": "wavelet_d1d2",
+      "snr": 0,
+      "segments": 6737,
+      "accuracy": 0.7210924743951314,
+      "macro_f1": 0.6647426508318319,
+      "confusion_matrix": [
+        [
+          3810,
+          1234
+        ],
+        [
+          645,
+          1048
+        ]
+      ]
+    },
+    {
+      "branch": "wavelet_d1d2",
+      "snr": 5,
+      "segments": 6737,
+      "accuracy": 0.7400920290930681,
+      "macro_f1": 0.687030194900559,
+      "confusion_matrix": [
+        [
+          3880,
+          1164
+        ],
+        [
+          587,
+          1106
+        ]
+      ]
+    },
+    {
+      "branch": "wavelet_d1d2",
+      "snr": 10,
+      "segments": 6737,
+      "accuracy": 0.761466528128247,
+      "macro_f1": 0.7185015397267974,
+      "confusion_matrix": [
+        [
+          3881,
+          1163
+        ],
+        [
+          444,
+          1249
+        ]
+      ]
+    },
+    {
+      "branch": "wavelet_d1d2",
+      "snr": 15,
+      "segments": 6737,
+      "accuracy": 0.7708178714561378,
+      "macro_f1": 0.7351274106577197,
+      "confusion_matrix": [
+        [
+          3833,
+          1211
+        ],
+        [
+          333,
+          1360
+        ]
+      ]
+    },
+    {
+      "branch": "wavelet_d1d2",
+      "snr": 20,
+      "segments": 6737,
+      "accuracy": 0.7782395725100193,
+      "macro_f1": 0.7488963500065863,
+      "confusion_matrix": [
+        [
+          3773,
+          1271
+        ],
+        [
+          223,
+          1470
+        ]
+      ]
+    }
+  ]
+}
